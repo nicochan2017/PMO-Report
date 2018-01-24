@@ -1,0 +1,11 @@
+Shrink DB Log
+ALTER DATABASE YourDatabaseName SET RECOVERY SIMPLE;
+GO
+
+CHECKPOINT;
+GO
+
+DBCC SHRINKFILE ('LogicalNameOfLogFile', FileSizeInMegabytes);
+GO
+
+ALTER DATABASE YourDatabaseName SET RECOVERY FULL;

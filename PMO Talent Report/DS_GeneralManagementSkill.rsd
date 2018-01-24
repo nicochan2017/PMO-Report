@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>PMO</DataSourceReference>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>SP_ReportGeneralManagmentSkill</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="id">
+        <DataField>id</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Completed">
+        <DataField>Completed</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Last_page_seen">
+        <DataField>Last page seen</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Start_language">
+        <DataField>Start language</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Token">
+        <DataField>Token</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Date_last_action">
+        <DataField>Date last action</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Date_started">
+        <DataField>Date started</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="IP_address">
+        <DataField>IP address</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Staff_ID">
+        <DataField>Staff ID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Staff_Name">
+        <DataField>Staff Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Staff_Email">
+        <DataField>Staff Email</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Survey_Email">
+        <DataField>Survey Email</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Role">
+        <DataField>Role</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Working_Location">
+        <DataField>Working Location</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Bottler_Location">
+        <DataField>Bottler/Location</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Date_of_Joined_Swire">
+        <DataField>Date of Joined Swire</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Line_Manager">
+        <DataField>Line Manager</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Mobility">
+        <DataField>Mobility</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Function">
+        <DataField>Function</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_other__Function">
+        <DataField>(other) Function</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Time_in_Role__Year_">
+        <DataField>Time in Role (Year)</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Skills_You_Own">
+        <DataField>Skills You Own</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Project_Management___Agile___General_Management_Skill___Experie">
+        <DataField>(Project Management - Agile ) General Management Skill &amp; Experie</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Project_Management_Waterfall___General_Management_Skill___Exper">
+        <DataField>(Project Management-Waterfall ) General Management Skill &amp; Exper</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Vendor_management__General_Management_Skill___Experience">
+        <DataField>(Vendor management) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Implementation___Support__General_Management_Skill___Experience">
+        <DataField>(Implementation &amp; Support) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Team_leadership__General_Management_Skill___Experience">
+        <DataField>(Team leadership) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Presentation__General_Management_Skill___Experience">
+        <DataField>(Presentation) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Solution_Evaluation__General_Management_Skill___Experience">
+        <DataField>(Solution Evaluation) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_ITIL__General_Management_Skill___Experience">
+        <DataField>(ITIL) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_IT_ServiceDesk_Management__General_Management_Skill___Experienc">
+        <DataField>(IT ServiceDesk Management) General Management Skill &amp; Experienc</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Quality_Assurance__General_Management_Skill___Experience">
+        <DataField>(Quality Assurance) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_SAP_Ops_Support__General_Management_Skill___Experience">
+        <DataField>(SAP Ops/Support) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Front_Office_Application_Ops_Support__General_Management_Skill_">
+        <DataField>(Front Office Application Ops/Support) General Management Skill </DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_IDC_Support_Management__General_Management_Skill___Experience">
+        <DataField>(IDC Support&amp;Management) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Mobility_Support__General_Management_Skill___Experience">
+        <DataField>(Mobility Support) General Management Skill &amp; Experience</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Others__please_specific_">
+        <DataField>Others (please specific)</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="year">
+        <DataField>year</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="update_date">
+        <DataField>update_date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

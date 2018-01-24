@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "PMO Report", "PMO Report\PMO Report.rptproj", "{4F55AB93-F17A-45D5-A447-23EAD9490543}"
 EndProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Note", "Note", "{684EF771-F
 	ProjectSection(SolutionItems) = preProject
 		Note.txt = Note.txt
 	EndProjectSection
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "PMO Talent Report", "PMO Talent Report\PMO Talent Report.rptproj", "{A51828A2-BFE2-4C85-A470-04A8975971B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,8 +37,19 @@ Global
 		{82027BA9-0DB1-453C-AD5F-ED631067517C}.Release|Default.ActiveCfg = Release
 		{82027BA9-0DB1-453C-AD5F-ED631067517C}.Release|Default.Build.0 = Release
 		{82027BA9-0DB1-453C-AD5F-ED631067517C}.Release|Default.Deploy.0 = Release
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.Debug|Default.ActiveCfg = Debug
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.Debug|Default.Build.0 = Debug
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.Debug|Default.Deploy.0 = Debug
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.DebugLocal|Default.Build.0 = DebugLocal
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.Release|Default.ActiveCfg = Release
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.Release|Default.Build.0 = Release
+		{A51828A2-BFE2-4C85-A470-04A8975971B1}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28A62411-6EB0-464F-B501-560318C7A913}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PMO">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.168.48.236\REPORT;Initial Catalog=PMO</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>bccd0f6a-d9b3-4a89-9d1a-d5c077f0464c</DataSourceID>
+</RptDataSource>
