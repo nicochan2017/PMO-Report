@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>PMO</DataSourceReference>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>SP_ReportSkillSummary</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="skill_id">
+        <DataField>skill_id</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="skill_name">
+        <DataField>skill_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="skill_category_id">
+        <DataField>skill_category_id</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="level_1_skill_category">
+        <DataField>level_1_skill_category</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="level_2_skill_category">
+        <DataField>level_2_skill_category</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="skill_count_own">
+        <DataField>skill_count_own</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_count_learn">
+        <DataField>skill_count_learn</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_female_count">
+        <DataField>skill_female_count</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_male_count">
+        <DataField>skill_male_count</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_unknown_gender_count">
+        <DataField>skill_unknown_gender_count</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_level_N3_and_below_count">
+        <DataField>skill_level_N3_and_below_count</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_level_N2_count">
+        <DataField>skill_level_N2_count</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

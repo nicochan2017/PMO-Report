@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Note", "Note", "{684EF771-F
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "PMO Talent Report", "PMO Talent Report\PMO Talent Report.rptproj", "{A51828A2-BFE2-4C85-A470-04A8975971B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{7A51A1CD-9FCE-4F39-9846-0AC5042012AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default

@@ -49,9 +49,6 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
-    <DataSet Include="DS_DeleteImport.rsd" />
-    <DataSet Include="DS_ImportReview.rsd" />
-    <DataSet Include="DS_ShowInvalidData.rsd" />
     <DataSet Include="ReportActivityTrend.rsd" />
     <DataSet Include="ReportWBSByActivityType.rsd" />
   </ItemGroup>
@@ -61,9 +58,6 @@
   <ItemGroup>
     <Report Include="PMO Report 1001 - Activity Tracking.rdl" />
     <Report Include="PMO Report 1002 - Activity Monthly Trend.rdl" />
-    <Report Include="PMO Report A001 - Import Review.rdl" />
-    <Report Include="PMO Report A002 - Validate Import.rdl" />
-    <Report Include="PMO Report A003 - Delete Imported Data.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
