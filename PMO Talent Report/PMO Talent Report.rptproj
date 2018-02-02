@@ -49,6 +49,7 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <DataSet Include="DataSet_StaffSkillQuery.rsd" />
     <DataSet Include="DS_ReportSkillOwnerQuery.rsd" />
     <DataSet Include="DS_SkillSummary.rsd" />
   </ItemGroup>
@@ -58,6 +59,7 @@
   <ItemGroup>
     <Report Include="PMO Report T001 Talent Skill Summary.rdl" />
     <Report Include="PMO Report T002 - Skill Owner Query.rdl" />
+    <Report Include="PMO Report T003 - Staff Skill Query.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

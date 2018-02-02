@@ -39,6 +39,10 @@
         <DataField>skill_female_count</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
+      <Field Name="skill_female_count_learn">
+        <DataField>skill_female_count_learn</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
       <Field Name="skill_male_count">
         <DataField>skill_male_count</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
@@ -47,12 +51,28 @@
         <DataField>skill_unknown_gender_count</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
+      <Field Name="skill_male_count_learn">
+        <DataField>skill_male_count_learn</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
       <Field Name="skill_level_N3_and_below_count">
         <DataField>skill_level_N3_and_below_count</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
       <Field Name="skill_level_N2_count">
         <DataField>skill_level_N2_count</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_unknown_gender_count_learn">
+        <DataField>skill_unknown_gender_count_learn</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_level_N3_and_below_count_learn">
+        <DataField>skill_level_N3_and_below_count_learn</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="skill_level_N2_count_learn">
+        <DataField>skill_level_N2_count_learn</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
     </Fields>

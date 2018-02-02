@@ -12,13 +12,9 @@
         </DataSetParameter>
       </DataSetParameters>
       <CommandType>StoredProcedure</CommandType>
-      <CommandText>SP_ReportSkillOwnerQuery</CommandText>
+      <CommandText>SP_ReportSkillStaffQuery</CommandText>
     </Query>
     <Fields>
-      <Field Name="skill_status">
-        <DataField>skill_status</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
       <Field Name="group_type">
         <DataField>group_type</DataField>
         <rd:TypeName>System.String</rd:TypeName>
