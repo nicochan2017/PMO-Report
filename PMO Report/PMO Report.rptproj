@@ -49,6 +49,7 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <DataSet Include="DataSet_ActivityTrendByTeam.rsd" />
     <DataSet Include="ReportActivityTrend.rsd" />
     <DataSet Include="ReportWBSByActivityType.rsd" />
   </ItemGroup>
@@ -58,6 +59,7 @@
   <ItemGroup>
     <Report Include="PMO Report 1001 - Activity Tracking.rdl" />
     <Report Include="PMO Report 1002 - Activity Monthly Trend.rdl" />
+    <Report Include="PMO Report 1003 - Activity Trend By Team.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

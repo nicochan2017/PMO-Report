@@ -1,3 +1,19 @@
+Talent Survey Processing Steps
+1. Extract result into two parts 
+	results-survey84821-16-1.xls  and results-survey84821-16-2.xls
+2. Import the above two files into two tables
+3. execut ConstructTalentResult-Step1.sql to the new result to table TalentSurveyResult
+4. check the new data select * from TalentSurveyResult where update_date > '2018-03-18'
+5. Extract 2018Talent_Survey_Result.xlsx using ConstructTalentResult-Step2.sql
+6. Construct 2018Talent_Survey_Result_Import1-1.xlsx and 2018Talent_Survey_Result_Import1-2.xlsx using 2018Talent_Survey_Result.xlsx in excel, replace "yes" with 1 and "no" with 0 "null" with empty
+7. Import 2018Talent_Survey_Result_Import1-1.xlsx and 2018Talent_Survey_Result_Import1-2.xlsx
+8. Update [TalentSurveyCode] using ConstructTalentResult-Step3.sql
+9. Add analysis data using ConstructTalentResult-Sum-Step4.sql according to dimension
+10. Construct Transpose data using ConstructTalentResult-Sum-Step5.sql
+11. Refresh [TalentSurveyAnalysisT] with 
+
+
+
 Shrink DB Log
 ALTER DATABASE YourDatabaseName SET RECOVERY SIMPLE;
 GO

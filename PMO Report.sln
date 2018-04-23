@@ -15,6 +15,21 @@ EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "PMO Talent Report", "PMO Talent Report\PMO Talent Report.rptproj", "{A51828A2-BFE2-4C85-A470-04A8975971B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{7A51A1CD-9FCE-4F39-9846-0AC5042012AF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step1.sql = ..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step1.sql
+		..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step2.sql = ..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step2.sql
+		..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step3.sql = ..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step3.sql
+		..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step6.sql = ..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Step6.sql
+		..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Sum-Step4.sql = ..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Sum-Step4.sql
+		..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Sum-Step5.sql = ..\..\..\UserData\ychan\Desktop\T1\ConstructTalentResult-Sum-Step5.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conversion Files", "Conversion Files", "{052BDC74-2D7D-413C-AB42-4D5CB94CEC58}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Talent\2018 Talent Survey\2018Talent_Survey_Result.xlsx = ..\..\Talent\2018 Talent Survey\2018Talent_Survey_Result.xlsx
+		..\..\Talent\2018 Talent Survey\2018Talent_Survey_Result_Import1-1.xlsx = ..\..\Talent\2018 Talent Survey\2018Talent_Survey_Result_Import1-1.xlsx
+		..\..\Talent\2018 Talent Survey\2018Talent_Survey_Result_Import1-2.xlsx = ..\..\Talent\2018 Talent Survey\2018Talent_Survey_Result_Import1-2.xlsx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
