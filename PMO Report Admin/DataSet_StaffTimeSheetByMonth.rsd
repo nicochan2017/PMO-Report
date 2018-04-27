@@ -4,15 +4,15 @@
     <Query>
       <DataSourceReference>PMO</DataSourceReference>
       <CommandType>StoredProcedure</CommandType>
-      <CommandText>SP_ReportActivityTrendByTeam</CommandText>
+      <CommandText>SP_ReportStaffTimeSheetByMonth</CommandText>
     </Query>
     <Fields>
-      <Field Name="WBS">
-        <DataField>WBS</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
+      <Field Name="SequenceNo">
+        <DataField>SequenceNo</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
-      <Field Name="Department">
-        <DataField>Department</DataField>
+      <Field Name="StaffName">
+        <DataField>StaffName</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
       <Field Name="YearNum">
@@ -27,17 +27,13 @@
         <DataField>Month</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
-      <Field Name="ATYPE">
-        <DataField>ATYPE</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="TotalHours">
-        <DataField>TotalHours</DataField>
+      <Field Name="DailyTotalHours">
+        <DataField>DailyTotalHours</DataField>
         <rd:TypeName>System.Double</rd:TypeName>
       </Field>
-      <Field Name="SequenceNo">
-        <DataField>SequenceNo</DataField>
-        <rd:TypeName>System.Int32</rd:TypeName>
+      <Field Name="GAP">
+        <DataField>GAP</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
       </Field>
     </Fields>
   </DataSet>

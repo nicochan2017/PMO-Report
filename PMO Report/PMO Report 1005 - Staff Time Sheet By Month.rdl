@@ -47,13 +47,13 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>0.86364in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>0.77922in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>0.69481in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -361,23 +361,25 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox24">
+                        <Textbox Name="SequenceNo">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
+                                  <Value>=Sum(Fields!SequenceNo.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <rd:DefaultName>SequenceNo</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -462,7 +464,7 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox47">
+                        <Textbox Name="Textbox51">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -478,7 +480,7 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox47</rd:DefaultName>
+                          <rd:DefaultName>Textbox51</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -616,7 +618,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>0.72727in</Size>
                         <CellContents>
                           <Textbox Name="Textbox28">
                             <CanGrow>true</CanGrow>
@@ -662,7 +664,7 @@
                         </SortExpression>
                       </SortExpressions>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>0.72727in</Size>
                         <CellContents>
                           <Textbox Name="YearNum">
                             <CanGrow>true</CanGrow>
@@ -705,7 +707,7 @@
                     </TablixMember>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>0.72727in</Size>
                         <CellContents>
                           <Textbox Name="Textbox23">
                             <CanGrow>true</CanGrow>
@@ -714,13 +716,15 @@
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value>Total</Value>
+                                    <Value>Staff No:</Value>
                                     <Style>
                                       <FontFamily>Arial</FontFamily>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
-                                <Style />
+                                <Style>
+                                  <TextAlign>Right</TextAlign>
+                                </Style>
                               </Paragraph>
                             </Paragraphs>
                             <rd:DefaultName>Textbox23</rd:DefaultName>
@@ -752,7 +756,7 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>Grand Total</Value>
+                                <Value>Total</Value>
                                 <Style>
                                   <FontFamily>Arial</FontFamily>
                                 </Style>
@@ -778,9 +782,9 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>0.72727in</Size>
                         <CellContents>
-                          <Textbox Name="Textbox46">
+                          <Textbox Name="Textbox50">
                             <CanGrow>true</CanGrow>
                             <KeepTogether>true</KeepTogether>
                             <Paragraphs>
@@ -796,7 +800,7 @@
                                 <Style />
                               </Paragraph>
                             </Paragraphs>
-                            <rd:DefaultName>Textbox46</rd:DefaultName>
+                            <rd:DefaultName>Textbox50</rd:DefaultName>
                             <Style>
                               <Border>
                                 <Color>LightGrey</Color>
@@ -819,7 +823,7 @@
             <DataSetName>DataSet_StaffTimeSheetByMonth</DataSetName>
             <Top>0.41636in</Top>
             <Height>1.25in</Height>
-            <Width>5in</Width>
+            <Width>4.06494in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
