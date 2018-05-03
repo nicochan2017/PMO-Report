@@ -51,6 +51,7 @@
   <ItemGroup>
     <DataSet Include="DataSet_StaffTimeSheet.rsd" />
     <DataSet Include="DataSet_StaffTimeSheetByMonth.rsd" />
+    <DataSet Include="DataSet_TimeSheetException.rsd" />
     <DataSet Include="DS_DeleteImport.rsd" />
     <DataSet Include="DS_ImportReview.rsd" />
     <DataSet Include="DS_ShowInvalidData.rsd" />
@@ -64,6 +65,7 @@
     <Report Include="PMO Report A003 - Delete Imported Data.rdl" />
     <Report Include="PMO Report A004 - Staff Time Sheet.rdl" />
     <Report Include="PMO Report A005 - Staff Time Sheet By Month.rdl" />
+    <Report Include="PMO Report A006 - Staff Time Sheet Exception.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
