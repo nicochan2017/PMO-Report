@@ -688,7 +688,7 @@
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value>=Sum(Fields!SequenceNo.Value)</Value>
+                                    <Value>=Fields!SequenceNo.Value</Value>
                                     <Style>
                                       <FontFamily>Arial</FontFamily>
                                     </Style>
