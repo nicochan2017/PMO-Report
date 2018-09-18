@@ -12,7 +12,7 @@
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
-    <TargetServerURL>http://192.168.48.236/ReportServer_REPORT</TargetServerURL>
+    <TargetServerURL>http://172.24.104.236/ReportServer_REPORT</TargetServerURL>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
     <FullPath>DebugLocal</FullPath>
@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <DataSource Include="PMO.rds" />
+    <DataSource Include="PMOAWS.rds" />
   </ItemGroup>
   <ItemGroup>
     <Report Include="PMO Report A001 - Import Review.rdl" />
