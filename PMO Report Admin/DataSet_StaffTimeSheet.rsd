@@ -16,6 +16,12 @@
           <OmitFromQuery>false</OmitFromQuery>
           <rd:DbType>Int32</rd:DbType>
         </DataSetParameter>
+        <DataSetParameter Name="@admingroup">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>AnsiString</rd:DbType>
+        </DataSetParameter>
       </DataSetParameters>
       <CommandType>StoredProcedure</CommandType>
       <CommandText>SP_ReportStaffTimeSheet</CommandText>
@@ -27,6 +33,10 @@
       </Field>
       <Field Name="StaffName">
         <DataField>StaffName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="AdminGroup">
+        <DataField>AdminGroup</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
       <Field Name="ActivityDate">

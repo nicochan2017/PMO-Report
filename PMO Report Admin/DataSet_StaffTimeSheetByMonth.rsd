@@ -15,6 +15,10 @@
         <DataField>StaffName</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
+      <Field Name="AdminGroup">
+        <DataField>AdminGroup</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
       <Field Name="YearNum">
         <DataField>YearNum</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
