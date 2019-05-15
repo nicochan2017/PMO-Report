@@ -1038,6 +1038,8 @@
       </Body>
       <Width>6.5in</Width>
       <Page>
+        <InteractiveHeight>30in</InteractiveHeight>
+        <InteractiveWidth>8.5in</InteractiveWidth>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
         <TopMargin>1in</TopMargin>
