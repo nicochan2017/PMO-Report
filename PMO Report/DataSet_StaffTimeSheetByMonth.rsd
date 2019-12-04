@@ -3,6 +3,20 @@
   <DataSet Name="DataSet1">
     <Query>
       <DataSourceReference>PMOAWS</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@year">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Int32</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@AdminGroup">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>String</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
       <CommandType>StoredProcedure</CommandType>
       <CommandText>SP_ReportStaffTimeSheetByMonth</CommandText>
     </Query>
@@ -13,6 +27,10 @@
       </Field>
       <Field Name="StaffName">
         <DataField>StaffName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="AdminGroup">
+        <DataField>AdminGroup</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
       <Field Name="YearNum">

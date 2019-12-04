@@ -63,7 +63,6 @@
     <Report Include="PMO Report 1002 - Activity Monthly Trend.rdl" />
     <Report Include="PMO Report 1003 - Activity Trend By Team.rdl" />
     <Report Include="PMO Report 1003A - Activity By Team By Vendor.rdl" />
-    <Report Include="PMO Report 1005 - Staff Time Sheet By Month.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
